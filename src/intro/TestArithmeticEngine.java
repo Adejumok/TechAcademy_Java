@@ -10,6 +10,8 @@ public class TestArithmeticEngine {
             double second = input.nextDouble();
             ArithmeticEngine a = new ArithmeticEngine(first, second);
             System.out.printf("%s + %s = %s", first, second, a.addTwoNums());
+            System.out.println();
+            System.out.printf("%s ^ %s = %s", first, second, a.power(first, second));
 
         }catch (Exception e){
             e.printStackTrace();

@@ -13,5 +13,11 @@ public class ArithmeticEngine {
         return this.firstNumber + this.secondNumber;
     }
 
+    public double power(double firstN, double secondN){
+        if (secondN == 0){
+            return 1;
+        }
+        return firstN * power(firstN, secondN - 1);
+    }
 
 }
