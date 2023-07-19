@@ -1,4 +1,4 @@
-package intro;
+package collections;
 
 public class ExceptTest {
     public static void main(String[] args) {
