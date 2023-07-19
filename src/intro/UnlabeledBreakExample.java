@@ -1,4 +1,4 @@
-package collections;
+package intro;
 
 public class UnlabeledBreakExample {
     public static void main(String[] args) {

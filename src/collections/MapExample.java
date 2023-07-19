@@ -1,4 +1,4 @@
-package intro;
+package collections;
 
 import java.util.*;
 public class MapExample {
